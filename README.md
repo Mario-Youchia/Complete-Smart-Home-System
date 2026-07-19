@@ -29,3 +29,30 @@ The project is based on ESP8266 modules connected over a local network. MQTT all
 <p align="center">
   <em>Click the preview to open the full-resolution system schematic.</em>
 </p>
+
+## Main modules
+
+The system was organized into ten functional modules:
+
+1. **Dual Channel Relay** — control of two connected electrical loads.
+2. **UPS** — backup power.
+3. **Fire Detection Module** — fire hazard detection.
+4. **IR Transceiver Module** — infrared control of compatible appliances.
+5. **Motion Detection Module** — motion monitoring.
+6. **Alarm Module** — audible alarm control.
+7. **Temperature Module** — environmental temperature monitoring.
+8. **Flood Detection Module** — water and flooding detection.
+9. **Door Opening Detection Module** — door-opening monitoring.
+10. **Power Meter Module** — electrical power-monitoring interface.
+
+### Firmware availability
+
+Firmware source code is only provided for **Alarm Module** and **Flood Detection Module** as a sample of representative implementations. The original firmware of the other eight modules is not found in the archived project files.
+
+The two examples included are not the full firmware needed to run the full ten-module system.
+
+## Mobile application
+
+The Android app was developed using Flutter. It gives interfaces to configure the server, to communicate with MQTT, to control modules, to send notifications, and to change system settings.
+
+Android build is available from the [latest GitHub Release](../../releases/latest).
