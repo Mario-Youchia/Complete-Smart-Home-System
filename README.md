@@ -20,12 +20,12 @@ The project is based on ESP8266 modules connected over a local network. MQTT all
 
 <p align="center">
   <a href="docs/project-overview/All%20in%20One%20Schematic.jpg">
-    <img src="docs/project-overview/All%20in%20One%20Schematic.jpg"
+    <img src="docs/project-overview/All%20in%20One%20Schematic%20Preview.jpg"
          alt="Complete smart-home system schematic"
          width="900">
   </a>
 </p>
 
 <p align="center">
-  <em>Open the image to inspect the full-resolution system schematic.</em>
+  <em>Click the preview to open the full-resolution system schematic.</em>
 </p>
